@@ -82,7 +82,7 @@ const BMICalculator: React.FC<BMICalculatorProps> = ({ weight, height }) => {
       return {
         bmi,
         category: 'Sobrepeso',
-        message: ` Tu IMC indica sobrepeso. Considera adoptar hábitos más saludables. Segùn estudios de la OMS para alcanzar un IMC saludable en 30 días, deberías correr aproximadamente ${dailyKilometers.toFixed(2)} km diarios. Si te parece mdemaciodo, en la suite de aplicaciones encontraràs herramientas que ayudan a confeccionar planes mas ajustados a ti para alcanzar tus metas`,
+        message: ` Tu IMC indica sobrepeso. Considera adoptar hábitos más saludables. Segùn estudios de la OMS para alcanzar un IMC saludable en 30 días, deberías correr aproximadamente ${dailyKilometers.toFixed(2)} km diarios. Si te parece demaciodo, en la suite de aplicaciones encontraràs herramientas que ayudan a confeccionar planes mas ajustados a ti para alcanzar tus metas`,
         color: 'text-yellow-700',
         bgColor: 'bg-yellow-50 border-yellow-200',
         alertType: 'warning'
@@ -92,7 +92,7 @@ const BMICalculator: React.FC<BMICalculatorProps> = ({ weight, height }) => {
       return {
         bmi,
         category: 'Obesidad',
-        message: ` Tu IMC indica obesidad. Es importante que consultes con un profesional de la salud. Segùn estudios de la OMS para alcanzar un IMC saludable en 30 días, deberías correr aproximadamente ${dailyKilometers.toFixed(2)} km diarios. Si te parece mdemaciodo, en la suite de aplicaciones encontraràs herramientas que ayudan a confeccionar planes mas ajustados a ti para alcanzar tus metas`,
+        message: ` Tu IMC indica obesidad. Es importante que consultes con un profesional de la salud. Segùn estudios de la OMS para alcanzar un IMC saludable en 30 días, deberías correr aproximadamente ${dailyKilometers.toFixed(2)} km diarios. Si te parece demaciodo, en la suite de aplicaciones encontraràs herramientas que ayudan a confeccionar planes mas ajustados a ti para alcanzar tus metas`,
         color: 'text-red-700',
         bgColor: 'bg-red-50 border-red-200',
         alertType: 'error'
