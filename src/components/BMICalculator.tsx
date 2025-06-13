@@ -138,7 +138,7 @@ const BMICalculator: React.FC<BMICalculatorProps> = ({ weight, height }) => {
           <div className="inline-flex items-center justify-center w-24 h-24 bg-blue-100 rounded-full mb-4">
             <span className="text-2xl font-bold text-blue-600">{result.bmi.toFixed(1)}</span>
           </div>
-          <h3 className="text-xl font-semibold text-gray-800 mb-2">Tu IMC {result.bmi.toFixed(1)} indica :</h3>
+          <h3 className="text-xl font-semibold text-gray-800 mb-2">Tu IMC de {result.bmi.toFixed(1)} indica :</h3>
           <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
             {result.category}
           </span>
