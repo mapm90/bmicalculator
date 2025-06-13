@@ -3,8 +3,8 @@ import BMICalculator from './BMICalculator';
 import { Calculator } from 'lucide-react';
 
 const BMIDemo: React.FC = () => {
-  const [weight, setWeight] = useState<number>(70);
-  const [height, setHeight] = useState<number>(1.75);
+  const [weight, setWeight] = useState<number>(0);
+  const [height, setHeight] = useState<number>(0);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 py-8 px-4">
